@@ -31,3 +31,7 @@ Navigation bar - will contain 'about me','open zine archive', and 'contact me' p
 Subheader ### H3 - browse the archive
 
 Main content - this will include an 8 rectangle layout of zine in the collection.  each rectangle will have an image preview of the zine.  when you hover over the zine pages, the rectangle will darken and display the zine's title and the zine's author name.  
+
+# other ideas
+
+Other potential ideas include a page where people can find zines by theme
