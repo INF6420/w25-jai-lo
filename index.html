@@ -4,35 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>j's zine companion - home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-    <h1>j's zine compendium</h1>
-   
+    <h1 class="web-title">j's zine companion</h1>
+
    <nav>
     <ul>
-      <li> <a href="index.html">Home</a></li> 
-      <li> <a href="about.html">About this Site</a></li>  
-      <li> <a href="archive.html">Explore the Archive</a></li>  
-      <li> <a href="contact.html">Contact the Archivist</a></li>  
+        <li class="nav-link"> <a href="index.html">Home</a></li> 
+        <li class="nav-link"> <a href="about.html">About this Site</a></li>  
+        <li class="nav-link"> <a href="archive.html">Explore the Archive</a></li>  
+        <li class="nav-link"> <a href="contact.html">Contact the Archivist</a></li>
     </ul>
    </nav>
 </header>
 
 <main>
-    <div>
+    <table>
+        <tr>
+            <td>
+    <div class="newest-zine">
         <h2>Newest Zine</h2>
-        <img src="images/11.jpg" alt="Preview image of Newest Zine by Author Name">
+        <a href= "zine1.html"><img class = "archive-page" src="images/11.jpg" alt="Preview image of Newest Zine by Author Name"></a>
         <h3>Author's Name</h3>
     </div>
-
-    <div>
+            </td>
+        <td>
+    <div class="featured-zine">
         <h2>Featured Zine</h2>
-        <img src="images/10.jpg" alt="Preview image of Featured Zine by Author Name">
+        <a href= "zine2.html"><img class = "archive-page" src="images/10.jpg" alt="Preview image of Featured Zine by Author Name"></a>
         <h3>Author's Name</h3>
         <h5><a href="">Read more about this zine!</a></h5>
     </div>
+    </td>
+        </tr>
+    </table>
 </main>
 
 </body>
+
+<footer>
+    <p>updated last feb 22, 2025</p>
+</footer>
 </html>
