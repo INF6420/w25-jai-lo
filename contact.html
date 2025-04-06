@@ -22,10 +22,27 @@
 
 <main>
     <div>
-        <h2>Contact Me</h2>
-        <p>Send me a message at (insert email here) with feedback, requests to add your zine to my site, or a request for a zine on a specific topic.</p>
+        <h2>Contact Me</h2> <br/>
+        <p>Fill out this form with feedback, requests to add your zine to my site, or a request for a zine on a specific topic.</p>
+    </div>
+
+    <div class = "contactform">
+    <form action="https://formspree.io/f/manedaqp" method="POST" class="validate">
+        <label> Your name: </label>
+            <input type="text" name="name" required>
+    <br>
+        <label> Your email:  </label>
+            <input type="email" name="email" required >
+        <label class = "message-button"> Your message:  </label>
+            <textarea name="message" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+
     </div>
 </main>
+
+<script src="script.js"></script>
 
 </body>
 
