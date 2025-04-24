@@ -150,6 +150,7 @@ p{
     width:100%;
     height:90%;
     display: flex;
+    flex: 1;
     flex-direction: row;
     flex-basis: 50%;
     align-items: center;
@@ -162,6 +163,10 @@ p{
 
 .proglayout img:hover{  
     display: block;
+}
+
+.newest-zine{
+    object-fit: fill;
 }
 
 .archlayout{
@@ -273,183 +278,3 @@ button{
     margin-bottom: 10px;
     margin-top: 10px;
 }    
-
-/*
-.table{
-
-    background-color: #f57600;
-}
-
-
-img {
-    width:auto;
-
-}
-
-body{ 
-    font-family: sans-serif;
-    background-color: #CEF178;
-    text-align: center;
-    align-content: center;
-}
-
-footer {
-    font-family: sans-serif;
-    text-align:center;
-    padding: 15px;
-}
-
-h2{
-    padding-top:5px;
-    padding-bottom:15px;
-}
-
-.web-title{
-    text-align: center;
-    width:fit-content;
-    margin:auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-table{
-    background-color: #CEF178;
-}
-
-
-.header-box{
-    border-style: double;
-    border-width:thick;
-    border-color:greenyellow;
-    width:max-content;
-    margin:auto;
-}
-
-
-nav{
-    height:auto;
-    width:95%;
-    mvargin: auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-
-div {
-    text-align: center;
-    align-content: center;
-}
-
-
-ul {
-    text-align: center;
-    list-style-position: inside;
-  }
-
-.nav-link{
-    display:inline-block;
-    padding-inline: 20px;
-}
-
-
-.zine-layout-pic{
-    margin-inline: auto;
-    max-height:325px;
-    width:20%;
-}
-
-
-
-table{
-    width:auto;
-}
-
-td{
-    text-align: center;
-}
-
-.abt-image{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-.archive-page:hover {
-    display: inline-table;
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
-}
-
-
-.table.mobile {
-    display: none
-  }
-  
-  .table.desktop {
-    display: inline
-  }
-  
-
-@media screen and (max-width:800px){
-    nav{
-        display:inline;
-        text-align:center;
-        text-wrap:backdrop;
-        left:10%;
-        bottom:5%;
-    }
-
-}
-
-@media screen and (max-width: 800px) {
-    .zine-row-display {
-      display:inline-block;
-      top: 10%;
-      left: 15%;
-      right:15%;
-      width: 100%;
-      height: 100%;
-      content:normal;
-
-    }
-}
-
-.testflex{
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 500px 500px;
-    overflow:auto;
-}
-
-.newest-zine{
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-
-.featured-zine{
-    grid-row-start:2;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-
-
-.newest-zine{
-    display:inline;
-    width:20%;
-}
-
-.featured-zine{
-    display:inline;
-    width:50%;
-}
-
-*/
-
